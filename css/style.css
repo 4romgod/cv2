@@ -42,6 +42,7 @@ body{
 .sub-container-skills{
     margin: 50px auto 20px auto;
     padding: 20px;
+    background-color: green;
 }
 
 .skill-1{
