@@ -41,6 +41,7 @@ body{
 /***********skill sub container***********/
 .sub-container-skills{
     margin: 50px auto 20px auto;
+    padding: 20px;
 }
 
 .skill-1{
@@ -80,10 +81,6 @@ body{
 /************************************IMAGES*****************************/
 .img-propic{
     width: 12.5%;
-}
-
-.img-skill-1{
-    width: 100%;
 }
 
 /*
