@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+.container-top{
+    background-color: black;
+    color: white;
+    padding: 0 20px 50px;
+    text-align: center;
+}
+
+
+/***************************************CONTAINER MIDDLE******************************/
+
+.container-middle{
+    margin: 100px auto 100px auto;
+    width: 80%;
+}
+
+
+.sub-container-contact{
+    margin: 0 0 50px 0;
+}
+
+.sub-container-hire{
+    border: 1px solid;
+    padding: 50px;
+}
+
+.sub-container-question{
+    border: 1px solid;
+    padding: 50px;
+}
+
+.sub-container-question-1{
+    border: 1px solid;
+    padding: 50px;
+}
+
+.sub-container-details{
+    border: 1px solid;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+/***************************************CONTAINER BOTTOM******************************/
+.container-bottom{
+    background-color: black;
+}
