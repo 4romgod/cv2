@@ -41,7 +41,6 @@ body{
 /***********skill sub container***********/
 .sub-container-skills{
     margin: 50px auto 20px auto;
-    width: 50%;
 }
 
 .skill-1{
@@ -63,6 +62,13 @@ body{
     margin: 0 0 100px 0;
     text-align: left;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 
 /*********************************Container-Bottom*****************************/
 .container-bottom{
