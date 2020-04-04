@@ -4,48 +4,87 @@ body{
 
 .container-top{
     background-color: black;
+    background-image: url(../images/coding.gif);
+}
+
+.profile-info{
     color: white;
-    padding: 0 20px 50px;
+    margin-bottom: 150px;
+    padding-top: 150px;
     text-align: center;
 }
+
+.prompt{
+    padding: 0 50px 50px 50px;
+}
+
 
 
 /***************************************CONTAINER MIDDLE******************************/
 
 .container-middle{
     margin: 100px auto 100px auto;
-    width: 80%;
+    width: 90%;
 }
 
 
-.sub-container-contact{
-    margin: 0 0 50px 0;
+/*SMALL SCREENS*/
+@media only screen and (max-width: 768px) {
+
+    /*parent container of the 3 containers*/
+    .container-contact-me{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*represents each of the containers*/
+    .my-container {            
+        border: 1px solid;
+        padding: 30px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+
 }
 
-.sub-container-hire{
+/*LARGE SCREENS*/
+@media only screen and (min-width: 768px) {
+
+    /*parent container of the 3 containers*/
+    .container-contact-me{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /*represents all the containers*/
+    .my-container {            
+        border: 1px solid;
+        padding: 30px;
+        width: 30%;
+    }
+
+}
+
+
+.my-container:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.container-details{
     border: 1px solid;
-    padding: 50px;
-}
-
-.sub-container-question{
-    border: 1px solid;
-    padding: 50px;
-}
-
-.sub-container-question-1{
-    border: 1px solid;
-    padding: 50px;
-}
-
-.sub-container-details{
-    border: 1px solid;
-    padding: 50px;
+    margin: 50px auto 0 auto;
+    padding: 30px;
     text-align: center;
 }
-
 
 
 /***************************************CONTAINER BOTTOM******************************/
 .container-bottom{
     background-color: black;
+    border: 1px solid;      /*removed margin on footer?*/
 }

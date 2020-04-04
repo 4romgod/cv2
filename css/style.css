@@ -40,14 +40,15 @@ body{
 }
 
 
-@media only screen and (max-width: 800px) {
+/*SMALL SCREENS*/
+@media only screen and (max-width: 768px) {
 
     .skill{
         padding: 50px 0 20px 0;
     }
 
     .img-propic{
-        width: 60%;
+        width: 100%;
     }
 
     .container-skills{
@@ -68,7 +69,8 @@ body{
 }
 
 
-@media only screen and (min-width: 800px) {
+/*LARGE SCREENS*/
+@media only screen and (min-width: 768px) {
 
     .skill{
         padding: 100px 0 100px 0;
@@ -100,7 +102,6 @@ body{
         width: 25%;
     }
 
-
 }
 
 
@@ -108,5 +109,5 @@ body{
 /*********************************Container-Bottom*****************************/
 .container-bottom{
     background-color: black;
-    margin: 0;
+    border: 1px solid;      /*removed margin on footer?*/
 }
