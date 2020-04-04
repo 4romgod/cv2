@@ -22,15 +22,22 @@ body{
     color: white;
     font-size: large;
 }
+
+
+
 /*********************************Container-Middle*****************************/
 .container-middle{
     margin: 50px 0;
     text-align: center;
 }
 
-/**********profile sub container*********/
-.sub-container-profile{
-    margin: 0 0 100px 0;
+/**********profile container*********/
+.container-profile{
+    margin: 0 0 70px 0;
+}
+
+.img-propic{
+    width: 25%;
 }
 
 .profile-description{
@@ -38,74 +45,63 @@ body{
     width: 50%;
 }
 
-/***********skill sub container***********/
-.sub-container-skills{
-    margin: 50px auto 20px auto;
-    padding: 20px;
-    background-color: green;
-}
 
-.skill-1{
+/************************************SKILLS SECTION******************************/
+.skill{
     margin: 0 0 100px 0;
-    text-align: left;
 }
 
-.skill-2{
-    margin: 0 0 100px 0;
-    text-align: left;
-}
+@media only screen and (max-width: 800px) {
 
-.skill-3{
-    margin: 0 0 100px 0;
-    text-align: left;
-}
-
-.skill-4{
-    margin: 0 0 100px 0;
-    text-align: left;
-}
-
-
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+    .container-skills{
+        margin: 50px auto 20px auto;
+        padding: 20px;
+        width: 80%;
     }
-  }
+
+    .skill-content{
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .img-skill {
+        width: 50%;
+    }
+
+}
+
+
+@media only screen and (min-width: 800px) {
+
+    .container-skills{
+        margin: 50px auto 20px auto;
+        padding: 20px;
+        width: 50%;
+    }    
+
+    .skill-content{
+        text-align: left;
+    }
+
+    .img-skill.first, .img-skill.third {
+        float: left;
+        margin-right: 30px;
+        width: 25%;
+    }
+
+    .img-skill.second, .img-skill.fourth{
+        float: right;
+        margin-left: 30px;
+        width: 25%;
+    }
+
+
+}
+
+
 
 /*********************************Container-Bottom*****************************/
 .container-bottom{
     background-color: black;
     margin: 0;
 }
-
-
-/************************************IMAGES*****************************/
-.img-propic{
-    width: 12.5%;
-}
-
-/*
-.img-skill-1 {
-    float: left;
-    margin-right: 30px;
-    width: 25%;
-}
-
-.img-skill-2{
-    float: right;
-    margin-left: 30px;
-    width: 25%;
-}
-
-.img-skill-3{
-    float: left;
-    margin-left: 30px;
-    width: 25%;
-}
-
-.img-skill-4{
-    float: right;
-    margin-left: 30px;
-    width: 25%;
-}
-*/
