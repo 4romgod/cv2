@@ -9,7 +9,8 @@ body{
 
 .profile-info{
     color: white;
-    margin: 150px 0 150px 0;
+    margin-bottom: 150px;
+    padding-top: 150px;
     text-align: center;
 }
 
@@ -17,11 +18,12 @@ body{
     padding: 0 50px 50px 50px;
 }
 
-/* change the link color */
+/* change the link color
 .navbar .navbar-nav .nav-link {
     color: white;
     font-size: large;
 }
+*/
 
 
 
@@ -31,32 +33,27 @@ body{
     text-align: center;
 }
 
-/**********profile container*********/
 .container-profile{
-    margin: 0 0 70px 0;
+    margin: 0 auto 100px auto;
+    padding: 20px;
+    width: 90%;
 }
 
-.img-propic{
-    width: 25%;
-}
-
-.profile-description{
-    margin: 0 auto 0 auto;
-    width: 50%;
-}
-
-
-/************************************SKILLS SECTION******************************/
-.skill{
-    margin: 0 0 100px 0;
-}
 
 @media only screen and (max-width: 800px) {
 
+    .skill{
+        padding: 50px 0 20px 0;
+    }
+
+    .img-propic{
+        width: 60%;
+    }
+
     .container-skills{
         margin: 50px auto 20px auto;
-        padding: 20px;
-        width: 80%;
+        padding: 10px;
+        width: 90%;
     }
 
     .skill-content{
@@ -73,10 +70,18 @@ body{
 
 @media only screen and (min-width: 800px) {
 
+    .skill{
+        padding: 100px 0 100px 0;
+    }
+
+    .img-propic{
+        width: 30%;
+    }
+
     .container-skills{
         margin: 50px auto 20px auto;
         padding: 20px;
-        width: 50%;
+        width: 60%;
     }    
 
     .skill-content{
