@@ -1,7 +1,26 @@
+/******************************* TAGS *****************************************/
 body{
+    background-color: #f4eeff;
+    font-family: 'Times New Roman', Times, sans-serif;
     margin: 0;
 }
 
+hr {
+    border-style: dotted;
+    border-width: 10px 0 0 0;
+    border-color: #a6b1e1;
+    width: 30%;
+}
+
+h2 {
+    color: #424874;
+}
+
+p, ul {
+    margin: 0;
+}
+
+/*********************************Container-Middle*****************************/
 .container-top{
     background-color: black;
     background-image: url(../images/coding.gif);
@@ -9,10 +28,10 @@ body{
 
 .profile-info{
     color: white;
-    margin-bottom: 150px;
-    padding-top: 150px;
+    padding: 207px 0 200px 0;
     text-align: center;
 }
+
 
 .prompt{
     padding: 0 50px 50px 50px;
@@ -24,8 +43,6 @@ body{
     font-size: large;
 }
 */
-
-
 
 /*********************************Container-Middle*****************************/
 .container-middle{
@@ -108,6 +125,5 @@ body{
 
 /*********************************Container-Bottom*****************************/
 .container-bottom{
-    background-color: black;
-    border: 1px solid;      /*removed margin on footer?*/
+    background-color: #424874;
 }
