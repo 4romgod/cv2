@@ -105,7 +105,34 @@ ul {
 }
 
 
-/* SMALL SCREENS */
+@media only screen and (min-width: 370px) {
+    .container-profile {
+        padding: 15px;
+        width: 370px;
+    }
+
+    .img-propic {
+        margin-bottom: 15px;
+        width: 90%;
+    }
+
+    .container-skills {
+        margin: 50px auto 20px auto;
+        padding: 10px;
+        width: 370px;
+    }
+
+    .skill {
+        background-color: white;
+        border: 1px solid rgb(236, 234, 234);
+        margin: 10px 0 20px;
+        padding: 20px 10px;
+    }
+
+}
+
+
+/* SMALL SCREENS 
 @media only screen and (min-width: 576px) {
 
     .container-profile {
@@ -116,7 +143,7 @@ ul {
         width: 576px;
     }
 
-}
+}*/
 
 
 /* MEDIUM SCREENS */
