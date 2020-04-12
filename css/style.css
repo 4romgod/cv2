@@ -1,5 +1,5 @@
 /******************************* TAGS *****************************************/
-body{
+body {
     background-color: #f4eeff;
     font-family: 'Times New Roman', Times, sans-serif;
     margin: 0;
@@ -16,24 +16,25 @@ h2 {
     color: #424874;
 }
 
-p, ul {
+p,
+ul {
     margin: 0;
 }
 
 /*********************************Container-TOP*****************************/
-.container-top{
+.container-top {
     background-color: black;
     background-image: url(../images/coding.gif);
 }
 
-.profile-info{
+.profile-info {
     color: white;
     padding: 207px 0 200px 0;
     text-align: center;
 }
 
 
-.prompt{
+.prompt {
     padding: 0 50px 50px 50px;
 }
 
@@ -45,92 +46,141 @@ p, ul {
 */
 
 /*********************************Container-Middle*****************************/
-.container-middle{
-    margin: 50px 0;
+.container-middle {
     text-align: center;
 }
 
-.container-profile{
-    margin: 0 auto 100px auto;
+.container-middle-top {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.container-profile {
+    margin: 0 auto;
     padding: 20px;
     width: 90%;
 }
 
-.img-propic {}
-
-
-
-.skill-content{
+.skill-content {
     text-align: left;
-    overflow: hidden;       /*investing more*/
+    overflow: hidden;
+    /*investing more*/
 }
 
 
-/*SMALL SCREENS*/
-@media only screen and (max-width: 768px) {
+/* X-SMALL SCREENS */
+@media only screen and (min-width: 0px) {
 
-    .skill{
-        padding: 50px 0 20px 0;
+    .container-profile {
+        padding: 15px;
+        width: 100%;
     }
 
-    .img-propic{
+    .img-propic {
         margin-bottom: 15px;
         width: 100%;
     }
 
-    .container-skills{
+    .container-skills {
         margin: 50px auto 20px auto;
         padding: 10px;
-        width: 90%;
+        width: 100%;
     }
 
-    .skill-content{
+    .skill {
+        background-color: white;
+        border: 1px solid rgb(236, 234, 234);
+        margin: 10px 0 20px;
+        padding: 20px 10px;
+    }
+
+    .skill-content {
+        padding: 0 10px 10px;
         margin-top: 15px;
     }
 
     .img-skill {
-        width: 50%;
+        width: 70%;
+    }
+}
+
+
+/* SMALL SCREENS */
+@media only screen and (min-width: 576px) {
+
+    .container-profile {
+        width: 576px;
+    }
+
+    .container-skills {
+        width: 576px;
     }
 
 }
 
 
-/*LARGE SCREENS*/
+/* MEDIUM SCREENS */
 @media only screen and (min-width: 768px) {
 
-    .skill{
-        padding: 100px 0 100px 0;
+    .container-profile {
+        width: 768px;
     }
 
-    .img-propic{
+    .img-propic {
         margin-bottom: 15px;
-        width: 30%;
+        width: 50%;
     }
 
-    .container-skills{
-        margin: 50px auto 20px auto;
-        padding: 20px;
-        width: 60%;
-    }    
+    .container-skills {
+        width: 768px;
+    }
 
+    .skill {
+        padding: 20px 20px 50px;
+        margin: 20px auto;
+        width: 80%;
+    }
 
-    .img-skill.first, .img-skill.third {
+    .img-skill.first,
+    .img-skill.third {
         float: left;
         margin-right: 30px;
         width: 25%;
     }
 
-    .img-skill.second, .img-skill.fourth{
+    .img-skill.second,
+    .img-skill.fourth {
         float: right;
         margin-left: 30px;
         width: 25%;
     }
 
+    .skill-content {
+        padding: 0 10px 10px;
+        margin-top: 0;
+    }
+
+}
+
+
+/*SMALL SCREENS*/
+@media only screen and (min-width: 992px) {
+
+    .container-skills {
+        width: 992px;
+    }
+
+    .skill {
+        padding: 30px 20px 100px ;
+        margin: 20px auto;
+        width: 80%;
+    }
 }
 
 
 
 /*********************************Container-Bottom*****************************/
-.container-bottom{
+.container-bottom {
     background-color: #424874;
+    padding: 30px;
 }
