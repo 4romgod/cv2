@@ -1,8 +1,15 @@
 /******************************* TAGS *****************************************/
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
-    background-color: #f4eeff;
+    background-color: #e3dfeb;
     font-family: 'Times New Roman', Times, sans-serif;
     margin: 0;
+    height: 100%;
 }
 
 hr {
@@ -34,21 +41,42 @@ ul {
 }*/
 
 /*********************************Container-TOP*****************************/
-.container-top {
-    background-color: black;
-    background-image: url(../images/coding.gif);
+.container-header{
+    background-image: url(../images/ippo.jfif);
+
+    /* Add the blur effect */
+    filter: blur(5px);
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
 }
 
 .profile-info {
     color: white;
-    padding: 207px 0 200px 0;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+
+    padding: 20px;
     text-align: center;
 }
 
-
-.prompt {
-    padding: 0 50px 50px 50px;
+.profile-info h1 {
+    font-size: 70px; 
+    font-weight: bolder;
+    color: white;
 }
+
+.profile-info h2 {
+    font-weight: lighter; 
+    color: white;
+}
+
 
 /* change the link color
 .navbar .navbar-nav .nav-link {
@@ -78,28 +106,14 @@ ul {
 
 
 /*---------------------- Container Education ----------------*/
-.container-education {
-    padding: 0 20px;
-}
-
-/*.container-studies {
-    background-color: yellow;
-    display: flex;
-    justify-content: space-between;
-}
-
-.study {
-    margin: 10px 0;
-    padding: 0 10px;
-    height: 100%;
-    width: 30%;
-}
-*/
-
 .study-content {
     background-color: white;
     border: 1px solid rgb(236, 234, 234);
     padding: 20px;
+}
+
+.text-study {
+    text-align: left;
 }
 
 
@@ -125,18 +139,21 @@ ul {
         width: 100%;
     }
 
-    /************************* STUDY ***************/
+
+    /*********************** EDUCATION *************/
+
     .container-studies {
+        margin: 0;
         display: flex;
         flex-direction: column;
     }
-    
+
     .study {
         margin: 10px 0;
         padding: 0 10px;
     }
 
-    /************************** SKILLS ****************/
+    /************************ SKILLS ****************/
     .container-skills {
         margin: 50px auto 20px auto;
         padding: 10px;
@@ -169,6 +186,13 @@ ul {
 
     .img-propic {
         margin-bottom: 15px;
+        width: 90%;
+    }
+
+    /*********************** EDUCATION *************/
+    .container-education {
+        margin: 0 auto;
+        padding: 0 20px;
         width: 90%;
     }
 
@@ -211,16 +235,21 @@ ul {
 
     .img-propic {
         margin-bottom: 15px;
-        width: 50%;
+        width: 45%;
     }
 
+    /*********************** EDUCATION *************/
+    .container-education {
+        margin: 0 auto;
+        padding: 0 20px;
+        width: 80%;
+    }
 
     .container-studies {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
     }
-    
+
     .study {
         margin: 10px 0;
         padding: 0 10px;
@@ -266,9 +295,8 @@ ul {
 
     .container-studies {
         display: flex;
-        justify-content: space-between;
     }
-    
+
     .study {
         margin: 10px 0;
         padding: 0 10px;
@@ -281,7 +309,7 @@ ul {
     }
 
     .skill {
-        padding: 30px 20px 100px ;
+        padding: 30px 20px 100px;
         margin: 20px auto;
         width: 80%;
     }

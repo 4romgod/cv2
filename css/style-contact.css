@@ -44,6 +44,11 @@ p, ul{
     width: 90%;
 }
 
+.my-container {
+    background-color: white;            
+    border: 1px solid rgb(236, 234, 234);;
+}
+
 
 /*SMALL SCREENS*/
 @media only screen and (max-width: 768px) {
@@ -57,7 +62,6 @@ p, ul{
 
     /*represents each of the containers*/
     .my-container {            
-        border: 1px solid #424874;
         padding: 30px;
         margin-bottom: 50px;
         width: 100%;
@@ -77,7 +81,6 @@ p, ul{
 
     /*represents all the containers*/
     .my-container {            
-        border: 1px solid #424874;
         padding: 30px;
         width: 30%;
     }

@@ -18,54 +18,54 @@
 
 <body>
 
-    <div class="container-top" background="images/computer.png">
 
-        <!--NAVIGATION BAR-->
-        <nav class="navbar fixed-top navbar-expand-md bg-light navbar-light">
-            <!--<a class="navbar-brand" href="#"><img src="images/monkey.png" alt="logo image" height="50px"></a>-->
+    <!--NAVIGATION BAR-->
+    <nav class="navbar fixed-top navbar-expand-md bg-light navbar-light">
+        <!--<a class="navbar-brand" href="#"><img src="images/monkey.png" alt="logo image" height="50px"></a>-->
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" style="color: aliceblue;"></span>
-            </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: aliceblue;"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ml-auto mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">EDUCATION</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">SKILLS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Education">EDUCATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Skills">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
 
-        </nav>
+    </nav>
+
+
+    <!----------------------------- CONTAINER TOP---------------------------------->
+    <div class="container-top">
+
+        <div class="container-header"></div>
 
         <!--TOP INTRODUCTION CONTENT-->
         <div class="profile-info">
-            <h1 style="font-size: 70px;">Ebenezer Mathebula</h1>
-            <h2 style="font-weight: lighter; color: #fff;">Software Development Intern.</h2>
-        </div>
-
-        <div class="prompt">
-            <button>Hire Me</button>
-            <button>Watch Video</button>
+            <h1>Ebenezer Mathebula</h1>
+            <h2>Software Development Intern.</h2>
         </div>
 
     </div>
-    <!--End container-top-->
 
 
+    <!----------------------------- CONTAINER MIDDLE---------------------------------->
     <div class="container-middle">
 
         <div class="container-profile">
@@ -78,7 +78,7 @@
 
         </div>
 
-        <h1>Education</h1>
+        <h1 id="Education">Education</h1>
         <div class="container-education">
 
             <div class="row container-studies">
@@ -159,7 +159,7 @@
 
             <div class="container-skills">
 
-                <h1>Skills</h1>
+                <h1 id="Skills">Skills</h1>
 
                 <div class="skill first">
                     <img class="img-skill first" src="images/android img.png" alt="">
@@ -211,6 +211,8 @@
         </div>
         <!--End container-middle-->
 
+
+        <!----------------------------- CONTAINER BOTTOM ---------------------------------->
         <div class="container-bottom">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, reprehenderit. Voluptas assumenda
                 deserunt
