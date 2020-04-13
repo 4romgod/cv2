@@ -115,11 +115,13 @@ ul {
 .study-qualification {
     color: grey;
     font-size: 20px;
+    text-align: left;
 }
 
 .study-years {
     color: grey;
     font-size: 17px;
+    text-align: left;
 }
 
 .study-text {
