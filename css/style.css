@@ -42,7 +42,7 @@ ul {
 
 /*********************************Container-TOP*****************************/
 .container-header{
-    background-image: url(../images/ippo.jfif);
+    background-image: url(../images/code.jfif);
 
     /* Add the blur effect */
     filter: blur(5px);
@@ -112,7 +112,17 @@ ul {
     padding: 20px;
 }
 
-.text-study {
+.study-qualification {
+    color: grey;
+    font-size: 20px;
+}
+
+.study-years {
+    color: grey;
+    font-size: 17px;
+}
+
+.study-text {
     text-align: left;
 }
 
@@ -181,12 +191,12 @@ ul {
 @media only screen and (min-width: 370px) {
     .container-profile-content {
         padding: 15px;
-        width: 370px;
+        width: 100%;
     }
 
     .img-propic {
         margin-bottom: 15px;
-        width: 90%;
+        width: 330px;
     }
 
     /*********************** EDUCATION *************/
@@ -196,17 +206,23 @@ ul {
         width: 90%;
     }
 
+    /********************** SKILLS ****************/
     .container-skills {
         margin: 50px auto 20px auto;
         padding: 10px;
-        width: 370px;
+        width: 100%;
     }
 
     .skill {
         background-color: white;
         border: 1px solid rgb(236, 234, 234);
-        margin: 10px 0 20px;
+        margin: 10px auto 20px;
         padding: 20px 10px;
+        width: 100%;
+    }
+
+    .img-skill {
+        width: 175px;
     }
 
 }
@@ -230,7 +246,7 @@ ul {
 @media only screen and (min-width: 768px) {
 
     .container-profile-content {
-        width: 768px;
+        width: 708px;
     }
 
     .img-propic {
@@ -259,7 +275,7 @@ ul {
 
 
     .container-skills {
-        width: 768px;
+        width: 90%;
     }
 
     .skill {
@@ -305,7 +321,7 @@ ul {
     }
 
     .container-skills {
-        width: 992px;
+        width: 100%;
     }
 
     .skill {
