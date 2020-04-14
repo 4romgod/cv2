@@ -6,14 +6,18 @@ html {
 }
 
 body {
-    background-color: #e3dfeb;
+    background-color: white;
     font-family: 'Times New Roman', Times, sans-serif;
     margin: 0;
     height: 100%;
 }
 
 hr {
+    border: 8px;
     border-color: #a6b1e1;
+    border-style: dotted none none none;
+    margin: 80px auto;
+    width: 50px;
 }
 
 h2 {
@@ -58,7 +62,7 @@ ul {
 .profile-info {
     color: white;
     position: absolute;
-    top: 30%;
+    top: 30vh;
     left: 0;
     right: 0;
 
@@ -67,8 +71,8 @@ ul {
 }
 
 .profile-info h1 {
-    font-size: 70px; 
-    font-weight: bolder;
+    font-size: 50px; 
+    font-weight: bold;
     color: white;
 }
 
@@ -94,8 +98,7 @@ ul {
 /*---------------------- Container Profile ----------------*/
 .container-profile {
     background-color: white;
-    padding: 50px 0;
-    margin-bottom: 70px;
+    padding: 50px 0 20px;
 }
 
 .container-profile-content {
@@ -106,30 +109,38 @@ ul {
 
 
 /*---------------------- Container Education ----------------*/
-.study-content {
+.container-education {
     background-color: white;
-    border: 1px solid rgb(236, 234, 234);
+}
+
+.study-content {
     padding: 20px;
 }
 
 .study-qualification {
     color: grey;
     font-size: 20px;
-    text-align: left;
 }
 
 .study-years {
     color: grey;
     font-size: 17px;
-    text-align: left;
 }
 
 .study-text {
-    text-align: left;
+    margin-bottom: 10px;
 }
 
 
 /*---------------------- Container Skills ----------------*/
+.container-skills {
+    background-color: white;
+}
+
+.all-skills {
+    margin: 0 auto 20px auto;
+}
+
 .skill-content {
     text-align: left;
     overflow: hidden;
@@ -153,9 +164,8 @@ ul {
 
 
     /*********************** EDUCATION *************/
-
     .container-studies {
-        margin: 0;
+        margin: 20px 0 0;
         display: flex;
         flex-direction: column;
     }
@@ -166,15 +176,12 @@ ul {
     }
 
     /************************ SKILLS ****************/
-    .container-skills {
-        margin: 50px auto 20px auto;
+    .all-skills {
         padding: 10px;
         width: 100%;
     }
 
     .skill {
-        background-color: white;
-        border: 1px solid rgb(236, 234, 234);
         margin: 10px 0 20px;
         padding: 20px 10px;
     }
@@ -202,24 +209,21 @@ ul {
     }
 
     /*********************** EDUCATION *************/
-    .container-education {
-        margin: 0 auto;
+    .container-studies {
+        margin: 30px auto 0;
         padding: 0 20px;
         width: 90%;
     }
 
     /********************** SKILLS ****************/
-    .container-skills {
-        margin: 50px auto 20px auto;
-        padding: 10px;
-        width: 100%;
+    .all-skills {
+        padding: 20px;
+        width: 90%;
     }
 
     .skill {
-        background-color: white;
-        border: 1px solid rgb(236, 234, 234);
         margin: 10px auto 20px;
-        padding: 20px 10px;
+        padding: 20px 30px;
         width: 100%;
     }
 
@@ -237,7 +241,7 @@ ul {
         width: 576px;
     }
 
-    .container-skills {
+    .all-skills {
         width: 576px;
     }
 
@@ -257,8 +261,8 @@ ul {
     }
 
     /*********************** EDUCATION *************/
-    .container-education {
-        margin: 0 auto;
+    .container-studies {
+        margin: 40px auto 0;
         padding: 0 20px;
         width: 80%;
     }
@@ -276,7 +280,7 @@ ul {
     }
 
 
-    .container-skills {
+    .all-skills {
         width: 90%;
     }
 
@@ -322,7 +326,7 @@ ul {
         width: 30%;
     }
 
-    .container-skills {
+    .all-skills {
         width: 100%;
     }
 
@@ -339,4 +343,27 @@ ul {
 .container-bottom {
     background-color: #424874;
     padding: 30px;
+    text-align: center;
+}
+
+.copyright-text {
+    color: white;
+}
+
+.container-social-media {
+    margin: 0 auto;
+    width: 45%;
+}
+
+.social-media{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.media {
+    padding: 20px;
+}
+
+.media-link {
+    margin: auto;
 }
