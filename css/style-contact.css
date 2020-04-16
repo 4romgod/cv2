@@ -1,106 +1,53 @@
 /******************************* TAGS *****************************************/
 body{
-    background-color: #f4eeff;
+    background-color: white;
     font-family: 'Times New Roman', Times, sans-serif;
     margin: 0;
 }
 
-hr {
-    border-style: dotted;
-    border-width: 10px 0 0 0;
-    border-color: #a6b1e1;
-    width: 30%;
-}
-
-h2 {
-    color: #424874;
-}
-
-p, ul{
-    margin: 0;
-}
-
-/*********************************Container-Middle*****************************/
-.container-top{
-    background-color: black;
-    background-image: url(../images/coding.gif);
-}
-
-.profile-info{
-    color: white;
-    padding: 207px 0 200px 0;
-    text-align: center;
-}
-
-
-.prompt{
-    padding: 0 50px 50px 50px;
-}
 
 /***************************************CONTAINER MIDDLE******************************/
-
 .container-middle{
-    margin: 100px auto 100px auto;
-    width: 90%;
-}
-
-.my-container {
-    background-color: white;            
-    border: 1px solid rgb(236, 234, 234);;
+    margin: 50px auto;
+    padding: 50px 30px;
 }
 
 
-/*SMALL SCREENS*/
-@media only screen and (max-width: 768px) {
-
-    /*parent container of the 3 containers*/
-    .container-contact-me{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    /*represents each of the containers*/
-    .my-container {            
-        padding: 30px;
-        margin-bottom: 50px;
+/* SMALLER PHONE SCREENS */
+@media only screen and (min-width: 0px) {
+    .container-middle {
         width: 100%;
     }
-
 }
 
-/*LARGE SCREENS*/
+
+/* PHONE SCREENS */
+@media only screen and (min-width: 370px) {
+    .container-middle {
+        width: 90%;
+    }
+}
+
+/* TABLET SCREENS */
+@media only screen and (min-width: 576px) {
+    .container-middle {
+        width: 80%;
+    }
+}
+
+/* PC SCREENS */
 @media only screen and (min-width: 768px) {
-
-    /*parent container of the 3 containers*/
-    .container-contact-me{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .container-middle {
+        width: 70%;
     }
+}
 
-    /*represents all the containers*/
-    .my-container {            
-        padding: 30px;
-        width: 30%;
+/* LARGE PC SCREENS */
+@media only screen and (min-width: 768px) {
+    .container-middle {
+        width: 60%;
     }
-
 }
-
-
-.my-container:hover{
-    background-color: #424874;
-    color: white;
-}
-
-
-.container-details{
-    border: 1px solid;
-    margin: 50px auto 0 auto;
-    padding: 30px;
-    text-align: center;
-}
-
 
 /***************************************CONTAINER BOTTOM******************************/
 .container-bottom{

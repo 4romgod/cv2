@@ -117,6 +117,10 @@ ul {
     padding: 20px;
 }
 
+.school-name {
+    margin: 10px 0;
+}
+
 .study-qualification {
     color: grey;
     font-size: 20px;
@@ -280,13 +284,14 @@ ul {
     }
 
 
+    /*********************** SKILLS ******************/
     .all-skills {
         width: 90%;
     }
 
     .skill {
         padding: 20px 20px 50px;
-        margin: 20px auto;
+        margin: 30px auto;
         width: 80%;
     }
 
@@ -332,7 +337,7 @@ ul {
 
     .skill {
         padding: 30px 20px 100px;
-        margin: 20px auto;
+        margin: 60px auto;
         width: 80%;
     }
 }
@@ -366,4 +371,8 @@ ul {
 
 .media-link {
     margin: auto;
+}
+
+.img-icon{
+    width: 40px;
 }

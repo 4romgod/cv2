@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
-    
+
     <!--Bootstrap stylesheet-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -14,84 +15,118 @@
 
 <body>
 
-    <div class="container-top" background="images/computer.png">
+    <!--NAVIGATION BAR-->
+    <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark">
+        <!--<a class="navbar-brand" href="#"><img src="images/monkey.png" alt="logo image" height="50px"></a>-->
 
-        <!--NAVIGATION BAR-->
-        <nav class="navbar fixed-top navbar-expand-lg bg-light navbar-light">
-            <!--<a class="navbar-brand" href="#"><img src="images/monkey.png" alt="logo image" height="50px"></a>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: aliceblue;"></span>
+        </button>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" style="color: aliceblue;"></span>
-            </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Education">EDUCATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Skills">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Bio">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="interests.html">INTERESTS</a>
+                </li>
+            </ul>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ml-auto mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">RESUME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
-                    </li>
-                </ul>
+            <div class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
             </div>
-
-        </nav>
-
-        <!--TOP INTRODUCTION CONTENT-->
-        <div class="profile-info">
-            <h1 style="font-size: 70px;">Connect With <br>me today.</h1>
         </div>
 
-        <div class="prompt">
-            <button>Hire Me</button>
-            <button>Watch Video</button>
+    </nav>
+
+
+    <!--CONTAINER MIDDLE-->
+    <div class="container-middle row">
+
+        <div class="col-md-12">
+
+            <form id="contact-form" method="post" action="" role="form">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_name">Firstname *</label>
+                            <input id="form_name" type="text" name="name" class="form-control"
+                                placeholder="Please enter your firstname *" required="required"
+                                data-error="Firstname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_lastname">Lastname *</label>
+                            <input id="form_lastname" type="text" name="surname" class="form-control"
+                                placeholder="Please enter your lastname *" required="required"
+                                data-error="Lastname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_email">Email *</label>
+                            <input id="form_email" type="email" name="email" class="form-control"
+                                placeholder="Please enter your email *" required="required"
+                                data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_phone">Phone</label>
+                            <input id="form_phone" type="tel" name="phone" class="form-control"
+                                placeholder="Please enter your phone">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">Message *</label>
+                            <textarea id="form_message" name="message" class="form-control"
+                                placeholder="Message for me *" rows="4" required
+                                data-error="Please,leave us a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                    </div>
+                </div>
+
+            </form>
+
         </div>
 
-    </div> <!--End container-top-->
+    </div>
+    <!--End container-middle-->
 
-
-
-    <div class="container-middle">
-
-        <div class="container-contact-me">
-
-            <div class="my-container hire">
-                <h3 class="heading">Hire me</h3>
-                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste accusamus dolorem eligendi, ullam molestias, maiores obcaecati neque adipisci voluptatum laboriosam deserunt distinctio. Ipsum et fuga explicabo obcaecati culpa commodi! Atque.</p>
-            </div>
-
-            <div class="my-container question">
-                <h3 class="heading">General Questions</h3>
-                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste accusamus dolorem eligendi, ullam molestias, maiores obcaecati neque adipisci voluptatum laboriosam deserunt distinctio. Ipsum et fuga explicabo obcaecati culpa commodi! Atque.</p>
-            </div>
-
-            <div class="my-container question-1">
-                <h3 class="heading">General Questions</h3>
-                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste accusamus dolorem eligendi, ullam molestias, maiores obcaecati neque adipisci voluptatum laboriosam deserunt distinctio. Ipsum et fuga explicabo obcaecati culpa commodi! Atque.</p>
-            </div>
-
-        </div>
-
-
-        <div class="container-details">
-            <h2 class="heading">Reach out to me directly.</h2>
-            <p class="email">ebenezermathebula@gmail.com</p>
-            <p class="phone">+27(0) 63 289 9004</p>
-        </div>
-
-    </div> <!--End container-middle-->
 
     <div class="container-bottom">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate id a, dolor iste maiores debitis ex maxime non voluptatibus veritatis facere ullam fuga ab magni? Magnam cum libero veritatis exercitationem.</p>
-    </div>  <!--End container-bottom-->
-    
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate id a, dolor iste maiores debitis ex
+            maxime non voluptatibus veritatis facere ullam fuga ab magni? Magnam cum libero veritatis exercitationem.
+        </p>
+    </div>
+    <!--End container-bottom-->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="jquery-3.2.1.slim.min.js"></script>
     <script src="popper.min.js"></script>
@@ -99,4 +134,5 @@
       -->
     <script src="bootstrap.min.js"></script>
 </body>
+
 </html>
