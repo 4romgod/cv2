@@ -109,13 +109,20 @@ ul {
 
 
 /*---------------------- Container Education ----------------*/
-.container-education {
-    background-color: white;
+.container-education h2 {
+    color: white;
 }
 
-.study-content {
-    padding: 20px;
+.container-education {
+    background-color: #424874;
+    margin: 60px 0;
+    padding: 50px 0;
 }
+
+#carousel-education {
+    margin-top: 40px;
+}
+
 
 .school-name {
     margin: 10px 0;
@@ -168,16 +175,10 @@ ul {
 
 
     /*********************** EDUCATION *************/
-    .container-studies {
-        margin: 20px 0 0;
-        display: flex;
-        flex-direction: column;
+    .carousel-item {
+        padding: 0 30px;
     }
 
-    .study {
-        margin: 10px 0;
-        padding: 0 10px;
-    }
 
     /************************ SKILLS ****************/
     .all-skills {
@@ -213,10 +214,8 @@ ul {
     }
 
     /*********************** EDUCATION *************/
-    .container-studies {
-        margin: 30px auto 0;
-        padding: 0 20px;
-        width: 90%;
+    .carousel-item {
+        padding: 0 50px;
     }
 
     /********************** SKILLS ****************/
@@ -265,22 +264,8 @@ ul {
     }
 
     /*********************** EDUCATION *************/
-    .container-studies {
-        margin: 40px auto 0;
-        padding: 0 20px;
-        width: 80%;
-    }
-
-    .container-studies {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .study {
-        margin: 10px 0;
-        padding: 0 10px;
-        height: 100%;
-        width: 50%;
+    .carousel-item {
+        padding: 0 70px;
     }
 
 
@@ -317,18 +302,11 @@ ul {
 }
 
 
-/*SMALL SCREENS*/
+/* LARGE SCREENS*/
 @media only screen and (min-width: 992px) {
 
-    .container-studies {
-        display: flex;
-    }
-
-    .study {
-        margin: 10px 0;
-        padding: 0 10px;
-        height: 100%;
-        width: 30%;
+    .carousel-item {
+        padding: 0 100px;
     }
 
     .all-skills {
