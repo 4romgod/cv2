@@ -1,0 +1,48 @@
+
+/*********************************Container-Bottom*****************************/
+.container-bottom {
+    background-color: #424874;
+    padding: 30px;
+    text-align: center;
+}
+
+.copyright-text {
+    color: white;
+}
+
+
+.social-media{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.media {
+    padding: 20px;
+}
+
+.media-link {
+    margin: auto;
+}
+
+.img-icon{
+    width: 40px;
+}
+
+
+/* MEDIUM SCREENS */
+@media only screen and (min-width: 768px) {
+    .container-social-media {
+        margin: 0 auto;
+        width: 35%;
+    }
+
+}
+
+
+/* LARGE SCREENS*/
+@media only screen and (min-width: 992px) {
+    .container-social-media {
+        margin: 0 auto;
+        width: 20%;
+    }
+}
