@@ -44,7 +44,7 @@ ul {
 }*/
 
 /*********************************Container-TOP*****************************/
-.container-header{
+.container-header {
     background-image: url(../images/code.jfif);
 
     /* Add the blur effect */
@@ -70,13 +70,20 @@ ul {
 }
 
 .profile-info h1 {
-    font-size: 50px; 
+    font-size: 70px;
     font-weight: bold;
     color: white;
 }
 
+@media only screen and (max-width: 370px) {
+    .profile-info h1 {
+        font-size: 50px;
+    }
+    
+}
+
 .profile-info h2 {
-    font-weight: lighter; 
+    font-weight: lighter;
     color: white;
 }
 
@@ -113,15 +120,14 @@ ul {
 }
 
 .container-education {
-    background-color: #424874;
+    background-color: #0f4c75;
     margin: 60px 0;
     padding: 50px 0;
 }
 
 #carousel-education {
-    margin-top: 40px;
+    /*margin-top: 40px;*/
 }
-
 
 .school-name {
     color: white;
@@ -154,7 +160,7 @@ ul {
 }
 
 .skill {
-    box-shadow: 0px 4px 34px -19px rgba(0, 0, 0, 0.38); 
+    box-shadow: 0px 4px 34px -19px rgba(0, 0, 0, 0.38);
 }
 
 .skill-content {
@@ -180,7 +186,7 @@ ul {
 
 
     /*********************** EDUCATION *************/
-    .study-content{
+    .study-content {
         padding: 40px 30px 50px;
     }
 
@@ -219,7 +225,7 @@ ul {
     }
 
     /*********************** EDUCATION *************/
-    .study-content{
+    .study-content {
         padding: 40px 50px 60px;
     }
 

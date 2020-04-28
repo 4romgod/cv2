@@ -1,0 +1,31 @@
+
+/*********************************Container-Middle*****************************/
+.container-middle {
+    background-color: burlywood;
+    height: 90vh;
+    margin-top: 56px;
+    text-align: center;
+}
+
+.carousel{
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+    padding: 30px 0;
+}
+
+.carousel-item .one {
+    
+}

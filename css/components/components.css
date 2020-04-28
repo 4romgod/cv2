@@ -1,0 +1,40 @@
+
+.btnMain{
+    background-color: #bbe1fa;
+}
+
+.btnMain:hover{
+    background-color: #3282b8;
+}
+
+.btnSec{
+    background-color: #3282b8;
+}
+
+.btnSec:hover{
+    background-color: #0f4c75;
+}
+
+.btnDark{
+    background-color: #0f4c75;
+}
+
+.btnDark:hover{
+    background-color: #3282b8;
+}
+
+
+#myNavIcon{
+}
+
+.bg-light{
+    padding: 0;
+}
+
+.nav-link{
+    padding: 15px;
+}
+
+.nav-link:hover{
+    background-color: #bbe1fa;
+}
