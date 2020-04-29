@@ -1,6 +1,7 @@
 
 .bg-light {
     background-color: #0f4c75 !important;
+    box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.5);
 }
 
 #myNavLink{
@@ -10,6 +11,7 @@
 
 #myNavBtn{
     border: 1px solid white;
+    padding: 5px;
 }
 
 #myNavIcon{
