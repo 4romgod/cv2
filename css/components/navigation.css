@@ -3,6 +3,38 @@
     background-color: #0f4c75 !important;
 }
 
-.navbar-light .navbar-nav .nav-link{
+#myNavLink{
     color: white;
+    padding: 18px 15px;
 }
+
+#myNavBtn{
+    border: 1px solid white;
+}
+
+#myNavIcon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler{
+    margin: 10px;
+}
+
+.bg-light{
+    padding: 0;
+}
+
+@media only screen and (max-width: 767px){
+    .nav-item{
+        border-bottom: 1px solid #bbe1fa;
+        text-align: center;
+    }
+}
+
+
+.nav-link:hover{
+    background-color: #bbe1fa;
+}
+
+
+/*******************center items*****************/

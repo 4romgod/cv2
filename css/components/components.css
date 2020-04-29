@@ -22,19 +22,3 @@
 .btnDark:hover{
     background-color: #3282b8;
 }
-
-
-#myNavIcon{
-}
-
-.bg-light{
-    padding: 0;
-}
-
-.nav-link{
-    padding: 15px;
-}
-
-.nav-link:hover{
-    background-color: #bbe1fa;
-}
