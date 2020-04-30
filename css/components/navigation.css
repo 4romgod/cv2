@@ -4,6 +4,7 @@
     box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.5);
 }
 
+
 #myNavLink{
     color: white;
     padding: 18px 15px;
@@ -26,17 +27,31 @@
     padding: 0;
 }
 
-@media only screen and (max-width: 767px){
-    .nav-item{
-        border-bottom: 1px solid #bbe1fa;
-        text-align: center;
-    }
-}
-
 
 .nav-link:hover{
     background-color: #bbe1fa;
 }
 
 
-/*******************center items*****************/
+/*******************Small Screens*****************/
+@media only screen and (max-width: 767px){
+    .bg-light {
+        /* background-color: transparent !important; */
+    }
+
+    .nav-item{
+        border-top: 1px solid #25597c;
+        text-align: center;
+    }
+
+    .navbar-nav .first{
+        border-top: none;
+    }
+}
+
+
+/*******************Large Screens*****************/
+@media only screen and (min-width: 767px){
+
+    
+}
