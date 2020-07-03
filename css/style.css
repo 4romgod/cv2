@@ -111,9 +111,9 @@ ul {
     padding: 50px 0;
 }
 
-#carousel-education {
+/* #carousel-education {
     /*margin-top: 40px;*/
-}
+} */
 
 .school-name {
     color: white;
@@ -277,15 +277,13 @@ ul {
         width: 80%;
     }
 
-    .img-skill.first,
-    .img-skill.third {
+    .img-skill.odd{
         float: left;
         margin-right: 30px;
         width: 25%;
     }
 
-    .img-skill.second,
-    .img-skill.fourth {
+    .img-skill.even {
         float: right;
         margin-left: 30px;
         width: 25%;
